@@ -4,7 +4,6 @@
     text-align: center;  
 }
 
-
 #login {
   text-align: center;
   font-family: 'Orbitron', sans-serif; 
@@ -22,6 +21,25 @@
   margin-top: 50px;
   padding-top: 50px;
 
+}
+
+#profile-h2 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif; 
+  margin: 20px; 
+  color: #fff;
+  margin-top: 50px;
+  font-size: 50px;
+
+}
+
+#profile {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif; 
+  margin: 20px; 
+  color: #fff;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 #signup {
@@ -55,7 +73,7 @@ body {
     to   { opacity: 1; }
 }
 
-header {
+.header {
     font-size: 75px;
     padding-top: 50px;
     text-align: center; 
