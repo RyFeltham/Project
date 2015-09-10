@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Profile Settings</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
   <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 </head>
@@ -13,30 +14,26 @@
 
   <h2 id="profile-h2">Profile Settings</h2>
 
-  <section id="profile">
-    <form action="verify.php" method="get" enctype="multipart/form-data" id="avatar-photo">
-      <label for="avatar">Upload your Avatar:</label>
-      <input type="file" name="avatar" id="avatar"/>
-    </form>
-    </br>
+  <!--<section id="profile">-->
+  <section class="form-group profile">
     <form method="POST" action="/profile/edit">
       <label for="email">Email</label>
-      <input type="email" id="email" name="email">
+      <input type="email" class="form-control" id="email" name="email">
       </br>
       <label for="password">Password</label>
-      <input type="password" id="password" name="password">
+      <input type="password" class="form-control" id="password" name="password">
       </br>
       <label for="gender">Gender</label>
-      <input type="gender" id="gender" name="gender"placeholder="Male/Female">
+      <input type="gender" class="form-control" id="gender" name="gender"placeholder="Male/Female">
       </br>
       <label for="first-name">First Name</label>
-      <input type="text" id="first-name" name="first-name">
+      <input type="text" class="form-control" id="first-name" name="first-name">
       <br/>
       <label for="last-name">Last Name</label>
-      <input type="text" id="last-name" name="last-name">
+      <input type="text" class="form-control" id="last-name" name="last-name">
       <br/> 
       <br/> 
-      <input type="Submit" value="Submit Changes">
+      <button type="button" class="btn btn-default">Submit Changes</button>
     </form>
   </section>
 
